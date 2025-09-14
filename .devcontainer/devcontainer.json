@@ -1,0 +1,19 @@
+{
+  "name": "Default Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+}
+{
+  // You might have other settings here like "image", "features", etc.
+
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "testvoip/demo": {
+          "permissions": {
+            "contents": "write"
+          }
+        }
+      }
+    }
+  }
+}
